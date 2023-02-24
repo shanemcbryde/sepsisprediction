@@ -1,0 +1,333 @@
+*****************
+states:
+(SystolicBP,N)
+relation:
+o 
+
+length of the RTP List:140
+length of the possible RTP List:140
+*****************
+*****************
+states:
+(HeartRate,N)
+relation:
+o 
+
+length of the RTP List:260
+length of the possible RTP List:260
+*****************
+*****************
+states:
+(RespiratoryRate,N)
+relation:
+o 
+
+length of the RTP List:270
+length of the possible RTP List:270
+*****************
+*****************
+states:
+(Temperature,VH)
+relation:
+o 
+
+length of the RTP List:309
+length of the possible RTP List:309
+*****************
+*****************
+states:
+(WBC,H)
+relation:
+o 
+
+length of the RTP List:262
+length of the possible RTP List:262
+*****************
+*****************
+states:
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c 
+o o 
+
+length of the RTP List:239
+length of the possible RTP List:256
+*****************
+*****************
+states:
+(Temperature,VH)
+(HeartRate,N)
+relation:
+o c 
+o o 
+
+length of the RTP List:234
+length of the possible RTP List:258
+*****************
+*****************
+states:
+(WBC,H)
+(HeartRate,N)
+relation:
+o c 
+o o 
+
+length of the RTP List:241
+length of the possible RTP List:258
+*****************
+*****************
+states:
+(Temperature,VH)
+(RespiratoryRate,N)
+relation:
+o c 
+o o 
+
+length of the RTP List:234
+length of the possible RTP List:268
+*****************
+*****************
+states:
+(WBC,H)
+(RespiratoryRate,N)
+relation:
+o c 
+o o 
+
+length of the RTP List:240
+length of the possible RTP List:268
+*****************
+*****************
+states:
+(WBC,H)
+(Temperature,VH)
+relation:
+o c 
+o o 
+
+length of the RTP List:290
+length of the possible RTP List:303
+*****************
+*****************
+states:
+(SystolicBP,N)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:106
+length of the possible RTP List:213
+*****************
+*****************
+states:
+(Temperature,VH)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:229
+length of the possible RTP List:237
+*****************
+*****************
+states:
+(WBC,H)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:236
+length of the possible RTP List:238
+*****************
+*****************
+states:
+(SystolicBP,N)
+(Temperature,VH)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:104
+length of the possible RTP List:207
+*****************
+*****************
+states:
+(WBC,H)
+(Temperature,VH)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:231
+length of the possible RTP List:233
+*****************
+*****************
+states:
+(SystolicBP,N)
+(WBC,H)
+(HeartRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:106
+length of the possible RTP List:214
+*****************
+*****************
+states:
+(SystolicBP,N)
+(Temperature,VH)
+(RespiratoryRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:103
+length of the possible RTP List:208
+*****************
+*****************
+states:
+(WBC,H)
+(Temperature,VH)
+(RespiratoryRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:230
+length of the possible RTP List:232
+*****************
+*****************
+states:
+(SystolicBP,N)
+(WBC,H)
+(RespiratoryRate,N)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:104
+length of the possible RTP List:214
+*****************
+*****************
+states:
+(SystolicBP,N)
+(WBC,H)
+(Temperature,VH)
+relation:
+o c c 
+o o c 
+o o o 
+
+length of the RTP List:141
+length of the possible RTP List:258
+*****************
+*****************
+states:
+(Temperature,VH)
+(SystolicBP,N)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c c 
+o o c c 
+o o o c 
+o o o o 
+
+length of the RTP List:102
+length of the possible RTP List:106
+*****************
+*****************
+states:
+(WBC,H)
+(SystolicBP,N)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c c 
+o o c c 
+o o o c 
+o o o o 
+
+length of the RTP List:104
+length of the possible RTP List:105
+*****************
+*****************
+states:
+(WBC,H)
+(Temperature,VH)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c c 
+o o c c 
+o o o c 
+o o o o 
+
+length of the RTP List:226
+length of the possible RTP List:228
+*****************
+*****************
+states:
+(WBC,H)
+(SystolicBP,N)
+(Temperature,VH)
+(HeartRate,N)
+relation:
+o c c c 
+o o c c 
+o o o c 
+o o o o 
+
+length of the RTP List:102
+length of the possible RTP List:103
+*****************
+*****************
+states:
+(WBC,H)
+(SystolicBP,N)
+(Temperature,VH)
+(RespiratoryRate,N)
+relation:
+o c c c 
+o o c c 
+o o o c 
+o o o o 
+
+length of the RTP List:100
+length of the possible RTP List:101
+*****************
+*****************
+states:
+(WBC,H)
+(Temperature,VH)
+(SystolicBP,N)
+(RespiratoryRate,N)
+(HeartRate,N)
+relation:
+o c c c c 
+o o c c c 
+o o o c c 
+o o o o c 
+o o o o o 
+
+length of the RTP List:100
+length of the possible RTP List:101
+*****************
