@@ -86,3 +86,12 @@ Inspired by Chi et al.’s work on RTP mining, this project achieved an F1-score
 
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat)](https://www.tensorflow.org/) [![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?style=flat)](https://keras.io/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat)](https://python.org) [![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Metrics-F7931E?style=flat)](https://scikit-learn.org) [![Pandas](https://img.shields.io/badge/Pandas-Data_Handling-150458?style=flat)](https://pandas.pydata.org) [![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243?style=flat)](https://numpy.org) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat)](https://jupyter.org)
 
+## 📚 Reference Materials
+
+- **MIMIC-III Clinical Database**  
+  [https://physionet.org/content/mimiciii/1.4/](https://physionet.org/content/mimiciii/1.4/)  
+  *A publicly available ICU dataset used for modeling patient trajectories and predicting septic shock.*
+
+- **Recent Temporal Pattern Mining for Multivariate Time-series Classification**  
+  [https://github.com/farzanehkh/RTP-mining-ICHI18](https://github.com/farzanehkh/RTP-mining-ICHI18)  
+  *GitHub repository containing the RTP mining toolkit used for extracting temporal patterns from clinical sequences.*
