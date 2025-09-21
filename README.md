@@ -2,8 +2,6 @@
 
 This project tackles one of the most urgent challenges in healthcare: early detection of septic shock. Using ICU patient data from MIMIC-III, it compares temporal pattern mining with deep learning to identify high-risk patients up to 24 hours before onset. The goal is to maximize recall and minimize false negatives—where delayed intervention could mean the difference between life and death.
 
----
-
 ## 📊 Overview
 
 The project evaluates two modeling paradigms:
@@ -14,16 +12,12 @@ The project evaluates two modeling paradigms:
 - **Long Short-Term Memory (LSTM)**  
   A sequential neural network is trained on padded time-series data to learn latent temporal dependencies in patient vitals.
 
----
-
 ## 🎯 Objectives
 
 - Predict septic shock onset 24 hours in advance using ICU vitals  
 - Compare RTP-SVM, RTP-LR, and LSTM across five key metrics  
 - Identify optimal model settings for clinical deployment  
 - Propose strategies for extending the observation window without sacrificing predictive power
-
----
 
 ## 🧠 Model Architectures
 
@@ -39,8 +33,6 @@ The project evaluates two modeling paradigms:
 - Epochs: 10  
 - Batch sizes tested: 64, 128, 256
 
----
-
 ## 📁 Dataset
 
 **Source**: MIMIC-III ICU admissions  
@@ -54,8 +46,6 @@ The project evaluates two modeling paradigms:
 
 **Observation Window**: All events ≥24 hours before diagnosis
 
----
-
 ## 📈 Evaluation Metrics
 
 - Accuracy  
@@ -64,9 +54,7 @@ The project evaluates two modeling paradigms:
 - F1 Score  
 - AUC-ROC  
 
-All models evaluated using 5-fold cross-validation.
-
----
+All models were evaluated using 5-fold cross-validation.
 
 ## 🔍 Key Findings
 
@@ -82,14 +70,10 @@ All models evaluated using 5-fold cross-validation.
 - **RTP-LR** offers strong precision and AUC-ROC, minimizing false positives.  
 - **LSTM** underperforms relative to RTP methods, likely due to limited sequence depth and feature granularity.
 
----
-
 ## 💡 Strategic Proposal
 
 Inspired by Chi et al.’s work on RTP mining, this project achieved an F1-score of 0.860 with a 24-hour prediction window—nearly matching their 0.868 score with just 4 hours of lead time. This suggests a promising opportunity:  
 **Extend the observation window in 4-hour increments until the minimum acceptable F1-score is reached**, enabling even earlier detection and intervention.
-
----
 
 ## ⚠️ Limitations
 
@@ -98,14 +82,7 @@ Inspired by Chi et al.’s work on RTP mining, this project achieved an F1-score
 - LSTM architecture was not tuned beyond batch size and layer depth  
 - RTP mining relies on discretized event sequences, which may lose nuance
 
----
-
 ## 🛠️ Tools Used
 
-- Python  
-- TensorFlow & Keras (LSTM Modeling)  
-- Scikit-learn (Metrics & Classifiers)  
-- Pandas & NumPy (Data Handling)  
-- RTP Mining Toolkit (ICHI18 GitHub)  
-- Jupyter Notebook (Experimentation & Reporting)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat)](https://www.tensorflow.org/) [![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?style=flat)](https://keras.io/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat)](https://python.org) [![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Metrics-F7931E?style=flat)](https://scikit-learn.org) [![Pandas](https://img.shields.io/badge/Pandas-Data_Handling-150458?style=flat)](https://pandas.pydata.org) [![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243?style=flat)](https://numpy.org) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat)](https://jupyter.org)
 
