@@ -84,7 +84,13 @@ Inspired by Chi et al.’s work on RTP mining, this project achieved an F1-score
 
 ## 🛠️ Tools Used
 
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat)](https://www.tensorflow.org/) [![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?style=flat)](https://keras.io/) [![Python](https://img.shields.io/badge/Python-3776AB?style=flat)](https://python.org) [![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-Metrics-F7931E?style=flat)](https://scikit-learn.org) [![Pandas](https://img.shields.io/badge/Pandas-Data_Handling-150458?style=flat)](https://pandas.pydata.org) [![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243?style=flat)](https://numpy.org) [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat)](https://jupyter.org)
+[![TensorFlow](https://img.shields.io/static/v1?label=TensorFlow&message=Deep_Learning&labelColor=FF6F00&color=gray)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/static/v1?label=Keras&message=Deep_Learning&labelColor=FF0000&color=gray)](https://keras.io/)
+[![Python](https://img.shields.io/static/v1?label=Python&message=Programming_Language&labelColor=3776AB&color=gray)](https://python.org)
+[![Scikit-learn](https://img.shields.io/static/v1?label=Scikit--Learn&message=Metrics&labelColor=F7931E&color=gray)](https://scikit-learn.org)
+[![Pandas](https://img.shields.io/static/v1?label=Pandas&message=Data_Handling&labelColor=150458&color=gray)](https://pandas.pydata.org)
+[![NumPy](https://img.shields.io/static/v1?label=NumPy&message=Numerical_Computing&labelColor=013243&color=gray)](https://numpy.org)
+[![Jupyter](https://img.shields.io/static/v1?label=Jupyter&message=Notebook&labelColor=F37626&color=gray)](https://jupyter.org)
 
 ## 📚 Reference Materials
 
