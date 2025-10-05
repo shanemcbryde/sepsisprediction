@@ -2,6 +2,8 @@
 
 This project tackles one of the most urgent challenges in healthcare: early detection of septic shock. Using ICU patient data from MIMIC-III, it compares temporal pattern mining with deep learning to identify high-risk patients up to 24 hours before onset. The goal is to maximize recall and minimize false negatives—where delayed intervention could mean the difference between life and death.
 
+**[View Jupyter Notebook](https://github.com/shanemcbryde/sepsisprediction/blob/main/Project/AIA_Sepsis_Prediction.ipynb)** 🚀
+
 ## 📊 Overview
 
 The project evaluates two modeling paradigms:
